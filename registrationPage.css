@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #2c4454;
+}
+
+#registrationFormMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+#registrationForm {
+    border: 1px solid #2c4454;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 50px;
+    border-radius: 15px;
+    box-shadow: 7.5px 7.5px 7.5px #2c4454;
+}
+
+#registrationForm div:not(#checkboxField) {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+#headingField {
+    display: flex;
+    justify-content: center;
+}
+
+#headingField h3 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+#emailIdField label {
+    width: 170px;
+}
+
+#emailIdField input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#passwordField label {
+    width: 170px;
+}
+
+#passwordField input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#confirmPasswordField label {
+    width: 170px;
+}
+
+#confirmPasswordField input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#firstNameField label {
+    width: 170px;
+}
+
+#firstNameField input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#lastNameField label {
+    width: 170px;
+}
+
+#lastNameField input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#contactNumberField label {
+    width: 170px;
+}
+
+#contactNumberField input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+}
+
+#cityField label {
+    width: 170px;
+}
+
+#cityField select {
+    width: 150px;
+    height: 30px;
+    outline: none;
+}
+
+#genderField label {
+    width: 170px;
+}
+
+#genderInput {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#genderInput label {
+    font-size: 16px;
+}
+
+#fileUploadField label {
+    width: 170px;
+}
+
+
+#checkboxField {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#submitButton {
+    display: flex;
+    justify-content: center;
+}
+
+#submitButton input {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+}
+
+#errMsg {
+    color: red;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: -28px;
+}
+
+.preview{
+    width: 60px;
+    height: 50px;
+}
+
+.imagePreview{
+    width: 50px;
+    height: 50px;
+    margin-right: -10px;
+}
+

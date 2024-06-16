@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: auto;
+    color: #2c4454;
+}
+
+.displayPage {
+    border: 1px solid #2c4454;
+    border-radius: 15px;
+    box-shadow: 7.5px 7.5px 7.5px #2c4454;
+    margin: 30px 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    border: 1px solid #2c4454;
+    text-decoration: none;
+    border-radius: 12px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2c4454;
+    padding: 10px 15px;
+}
+
+.userDisplayTable {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.userDisplayTable tr {
+    border: 1px solid #2c4454;
+}
+
+.tableHeadRows {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    height: 50px;
+}
+
+.tableHeadRows td {
+    display: flex;
+    justify-content: center;
+}
+
+.tableValueRows {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    overflow: auto;
+    height: 100px;
+}
+
+.tableValueRows td {
+    display: flex;
+    justify-content: center;
+}
+
+.id {
+    width: 75px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.emailId {
+    width: 240px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.firstName {
+    width: 160px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.lastName {
+    width: 160px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.contactNo {
+    width: 160px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.city {
+    width: 140px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.gender {
+    width: 100px;
+    border-right: 1px solid #2c4454;
+    align-items: center;
+}
+
+.image {
+    width: 200px;
+    align-items: center;
+    border-right: 1px solid #2c4454;
+}
+
+.editButton {
+    width: 100px;
+    align-items: center;
+    border-right: 1px solid #2c4454;
+}
+
+.editButton button {
+    width: 60px;
+    align-items: center;
+    color: white;
+    background-color: #2c4454;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.deleteButton {
+    width: 100px;
+    align-items: center;
+}
+
+.deleteButton button {
+    width: 60px;
+    color: white;
+    background-color: #2c4454;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.imageFile {
+    width: 120px;
+    height: 75px;
+}
+
+
+
