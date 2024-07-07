@@ -6,7 +6,7 @@ require "./configuration.php";
 
 <head>
     <title>
-        User Registration
+        Registry
     </title>
     <link rel="stylesheet" href="./registrationPage.css">
 </head>
